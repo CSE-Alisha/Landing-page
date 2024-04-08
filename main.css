@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+/*=====================HEADER STARTS HERE========================*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(252, 200, 155);
+    padding: 70px 150px;
+}
+
+.input-section {
+    height: 50px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#submit-button {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 200px;
+}
+
+#text-field {
+    width: 300px;
+    border: black solid 3px;
+}
+
+/*=====================HEADER ENDS HERE========================*/
+
+/*=====================FOOTER STARTS HERE========================*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px 150px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+/*=====================FOOTER ENDS HERE========================*/
